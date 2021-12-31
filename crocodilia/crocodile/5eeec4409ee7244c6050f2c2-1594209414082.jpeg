@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- meta -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta name="_csrf" content="G5U5gFSX-BgrjvWONeF7LcoidovGrHROPsPo" />
+
+
+<title>RadarOS</title>
+
+<meta name=”description” content=”Radar’s Buyers are ready to see your product offering. Feel free to contact Radar team to help you proceed  further.”>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+<link rel="icon" href="/public/images/favicon.png" sizes="32x32" />
+<link rel='stylesheet' href='/public/stylesheets/layout.css' />
+<link rel='stylesheet' href='/public/stylesheets/site.css' />
+<link rel='stylesheet' href='/public/stylesheets/theme.css' />
+<link rel='stylesheet' href='/public/stylesheets/responsive.css' />
+<link rel="stylesheet" href="/public/materialize-css/dist/css/materialize.min.css">
+<link rel="stylesheet" href="/public/normalize.css/normalize.css">
+<link rel="stylesheet" href="/public/owl.carousel/dist/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="/public/dropzone/dist/dropzone.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/javascript" src="/public/jquery/dist/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/cbf2498e7e.js" crossorigin="anonymous"></script>
+    <style>
+        .col .row {
+            margin-left: unset !important;
+            margin-right: unset !important;
+        }
+
+        .full-width {
+            margin-bottom: -0.2em;
+        }
+
+        .repw {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+<header>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="/" class="brand-logo"><img src="/public/images/logo_n.png" alt=""></a>
+                <a href="#" data-target="nav-site" class="sidenav-trigger left"><i class="material-icons">menu</i></a>
+                <a href="#" data-target="nav-user" class="sidenav-trigger right"><i
+                        class="material-icons">account_circle</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="/home">Home</a></li>
+                    <li><a target="_blank" href="/user/deal-status">Deal</a></li>
+
+                    
+                    <li><a href="/requirement/all">Requirement</a></li>
+                    
+
+                    
+                    <li><a href="/auth/signin">Login</a></li>
+                    <li><a href="/register">Register</a></li>
+                    
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul id="user" class="dropdown-content">
+        
+    </ul>
+
+    <ul class="sidenav" id="nav-site">
+        <li><a href="/">Home</a></li>
+        <li><a href="/auth/signin">Login</a></li>
+        <li><a href="/register">Register</a></li>
+    </ul>
+
+    <ul class="sidenav" id="nav-user">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="/public/images/background.png">
+                </div>
+                
+            </div>
+        </li>
+
+        
+        <li>
+            <div class="divider"></div>
+        </li>
+        
+    </ul>
+</header>
+<!-- Content -->
+    <div class="container main-site">
+        <div class="row">
+            <div class="col s12">
+                <div class="card card-color-site-2 margin-top-2 card-w-80">
+                    <div class="row">
+                        <div class="order">
+                            <div class="card-content white-text col s12 l6 no-padding order-1">
+                                <img class="full-width" src="/public/images/signup.jpg" alt="">
+                            </div>
+                            <div class="card-content white-text col s12 l6 order-2">
+                                <h4 class="center-align white-text modal-title">Login</h4>
+                                <div class="row">
+                                    <form class="col s12" method="POST" accept="/auth/signin">
+                                        <input type="hidden" name="_csrf" value="G5U5gFSX-BgrjvWONeF7LcoidovGrHROPsPo">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <input id="email" name="email" type="email" value="" class="validate"
+                                                    required />
+                                                <label for="email">Email</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                                <input type="password" name="password" id="password" value=""
+                                                    class="validate" required />
+                                                <label for="password">Password</label>
+                                            </div>
+                                        </div>
+                                        <div class="btn-login">
+                                            <input style="color: white !important;" type="submit" value="Login" 
+                                                class="waves-effect waves-light btn-large btn-center btn-site-color" />
+                                            <a href="/auth/identify">
+                                                <p class="center-align margin-top-1 repw">Forgot Password</p>
+                                            </a>
+                                            <a href="/register"
+                                                class="waves-effect waves-light btn-large btn-center btn-site-color margin-top-1">Register</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h6 class="footer-color">About us</h6>
+                <p class="footer-color">Fast Track is specialized in international marketing and business development
+                    specifically to exportation. We endeavor to look for buyers that match your product, help you on
+                    price negotiation, and mitigate buyer risks.
+                </p>
+            </div>
+            <div class="col l3 s12">
+                <h6 class="footer-color">POPULAR CATEGORIES</h6>
+                <div class="footer-tags footer-color">
+                    <p>
+                        <a href="#">Digital SME</a>
+                        <a href="#">Business</a>
+                        <a href="#">Knowledge</a>
+                        <a href="#">Incubation</a>
+                        <a href="#">Investor</a>
+                        <a href="#">Negotiation</a>
+                        <a href="#">Entrepreneur</a>
+                        <a href="#">O2O</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col l3 s12">
+                <h6 class="footer-color">SUBSCRIBE</h6>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                                <span class="helper-text" data-error="โปรดระบุที่อยู่อีเมล เพื่อรับข้อมูลเพิ่มเติม"
+                                    data-success="right"></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row row-auto">
+                <div class="col l6 s12 left-align">
+                    <p>
+                        <a class="copyright-link footer-color" href="#">About</a>
+                        <a class="copyright-link footer-color" href="#">Fast Track</a>
+                        <a class="copyright-link footer-color" href="#">REconomy</a>
+                        <a class="copyright-link footer-color" href="#">Term of service</a>
+                    </p>
+                    <p class="footer-color">© 2020 REconomy . All right reserved.</p>
+                </div>
+                <div class="col l6 s12 right-align">
+                    <p class="footer-color">follow us on social media</p>
+                    <p>
+                        <a class="copyright-socia" href="https://www.facebook.com/radaros.co/"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <!-- <a class="copyright-socia" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="copyright-socia" href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a class="copyright-socia" href="#"><i class="fab fa-weixin"></i></a> -->
+                        <a class="copyright-socia" href="https://lin.ee/adcIDyg" target="_blank"><i
+                                class="fab fa-line"></i></a>
+                        <!-- <a class="copyright-socia" href="#"><i class="fab fa-youtube"></i></a> -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<footer class="center-align white-text color_site footer_mb">
+    <div class="row">
+        <div class="col s3">
+            <a href="/">
+                <h1 class="fas fa-home"></h1>
+                <p>Home</p>
+            </a>
+        </div>
+        <div class="col s3">
+            
+                <a href="/requirement/all">
+                    <h1 class="fas fa-search"></h1>
+                    <p>Search</p>
+                </a>
+            
+        </div>
+        <div class="col s3">
+
+            <a href="/user/deal-status">
+                <h1 class="fas fa-handshake"></h1>
+                <p>Deal</p>
+            </a>
+
+        </div>
+        <div class="col s3">
+            <a href="https://lin.ee/adcIDyg" target="_blank">
+                <h1 class="fas fa-headset"></h1>
+                <p>Contact</p>
+            </a>
+        </div>
+    </div>
+</footer>
+    <!-- Script -->
+<div class="script">
+    <script type="text/javascript" src="/public/jquery/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="/public/materialize-css/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/public/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/public/javascripts/owl.config.js"></script>
+    <script type="text/javascript" src="/public/javascripts/site.js"></script>
+    <script type="text/javascript" src="/public/dropzone/dist/dropzone.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+</div>
+
+</body>
+
+
+
+
+</html>
